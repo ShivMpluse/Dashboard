@@ -1,22 +1,18 @@
 'use client'
-
-import Navbar from "@/components/navbar.jsx"
+import Navbar from "@/components/ui/navbar";
+// import MainCard from "@/";
 
 const Page = () => {
-
-    return (
-      <div className="w-full h-screen flex">
-
-        {/* Main Content */}
-
-        <div className="flex-1 bg-lime-800 p-4">
-          <Navbar />
-          <h1 className="text-2xl font-bold">Main Content Area</h1>
-        </div>
-
+  return (
+    <div className="w-full h-screen flex">
+      <div className="flex-1 bg-gray-800 p-4">
+        <Navbar />
       </div>
-    )
+      <>
+        {/* <MainCard /> */}
+      </>
+    </div>
+  )
 }
 
 export default Page
-  

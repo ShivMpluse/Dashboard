@@ -1,0 +1,38 @@
+export const blockData = [
+    {
+        id: 1,
+        name: "Bitcoin",
+        symbol: "BTC",
+        price: 1200.0,
+        trend: "up",
+        color: "green",
+        icon: "Bitcoin",
+    },
+    {
+        id: 2,
+        name: "Ethereum",
+        symbol: "ETH",
+        price: 100.0,
+        trend: "down",
+        color: "orange",
+        icon: "Ethereum",
+    },
+    {
+        id: 3,
+        name: "Dogecoin",
+        symbol: "DOGE",
+        price: 2500.0,
+        trend: "up",
+        color: "green",
+        icon: "Dog",
+    },
+    {
+        id: 4,
+        name: "Binance",
+        symbol: "BNB",
+        price: 3200.0,
+        trend: "up",
+        color: "yellow",
+        icon: "Diamond",
+    },
+];
