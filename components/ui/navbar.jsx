@@ -1,7 +1,7 @@
 'use client'
 import  Input  from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { BellDot, Fullscreen } from 'lucide-react';
+import { BellDot } from 'lucide-react';
 import { MessageSquareText } from 'lucide-react';
 import profile from '@/public/assets/profile.png'
 import Image from "next/image";

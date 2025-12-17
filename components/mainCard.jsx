@@ -1,14 +1,14 @@
 
 
-const MainCard = () => {
+const MainCard = ({ title, amount, icon: Icon }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-6">
+    <div className="text-white rounded-lg shadow-md p-6">
       <div className="flex justify-between">
         <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold">Main Card Title</h2>
-          <p className="text-base text-gray-700">This is a description inside the main card component.</p>
+          <h2 className="text-xl text-gray-200 font-bold">{ title }</h2>
+          <p className="text-2xl font-bold text-gray-200">{ amount }</p>
         </div>
-        <span>icon</span>
+        <span><Icon size={28} /> </span>
       </div>
     </div>
   )

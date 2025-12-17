@@ -1,38 +1,24 @@
-export const blockData = [
+import { Coins, Gem, PawPrint, Diamond } from "lucide-react"
+
+export const cardData = [
     {
-        id: 1,
-        name: "Bitcoin",
-        symbol: "BTC",
-        price: 1200.0,
-        trend: "up",
-        color: "green",
-        icon: "Bitcoin",
+        title: "Bitcoin",
+        amount: "$1200.00",
+        icon: Coins,
     },
     {
-        id: 2,
-        name: "Ethereum",
-        symbol: "ETH",
-        price: 100.0,
-        trend: "down",
-        color: "orange",
-        icon: "Ethereum",
+        title: "Ethereum",
+        amount: "$100.00",
+        icon: Gem,
     },
     {
-        id: 3,
-        name: "Dogecoin",
-        symbol: "DOGE",
-        price: 2500.0,
-        trend: "up",
-        color: "green",
-        icon: "Dog",
+        title: "Dogecoin",
+        amount: "$2500.00",
+        icon: PawPrint,
     },
     {
-        id: 4,
-        name: "Binance",
-        symbol: "BNB",
-        price: 3200.0,
-        trend: "up",
-        color: "yellow",
-        icon: "Diamond",
+        title: "Binance",
+        amount: "$3200.00",
+        icon: Diamond,
     },
-];
+]
