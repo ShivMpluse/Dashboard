@@ -7,7 +7,7 @@ import { cardData } from "@/components/cardData"
 const Page = () => {
   return (
     <div className="w-full h-screen flex flex-col">
-      <div className="flex-1 bg-gray-800 p-4">
+      <div className="flex-1 bg-gray-800 p-2">
         <Navbar />
         <ul className="p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {
@@ -22,6 +22,14 @@ const Page = () => {
             ))
           }
         </ul>
+        <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 text-white border-2 rounded-2xl">
+          <div className="col-span-3 border-2 rounded-2xl">
+            <h1>welcome to the real world</h1>
+          </div>
+          <div className="border-2">  
+            <h1>welcome to the real world</h1>
+          </div>
+        </div>
       </div>
     </div>
   )
